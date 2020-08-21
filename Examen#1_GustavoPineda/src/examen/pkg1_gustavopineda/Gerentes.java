@@ -14,15 +14,17 @@ import java.util.ArrayList;
 public class Gerentes extends Personas {
     private String usuario;
     private String contraseña;
+    private String cargo;
 
     public Gerentes() {
         super();
     }
 
-    public Gerentes(String usuario, String contraseña, long ID, String nombre, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
+    public Gerentes(String usuario, String contraseña,String cargo, long ID, String nombre, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
         super(ID, nombre, sexo, estadoCivil, altura, peso, listaMensaje);
         this.usuario = usuario;
         this.contraseña = contraseña;
+        this.cargo=cargo;
     }
 
     public String getUsuario() {
@@ -39,6 +41,14 @@ public class Gerentes extends Personas {
 
     public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
     }
 
     
