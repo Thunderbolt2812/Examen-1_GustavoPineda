@@ -21,8 +21,8 @@ public class PersonaGeneral extends Personas {
         super();
     }
 
-    public PersonaGeneral(String ocupacion, String horario, int tiempoTrabajado, double sueldo, long ID, String nombre, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
-        super(ID, nombre, sexo, estadoCivil, altura, peso, listaMensaje);
+    public PersonaGeneral(String ocupacion, String horario, int tiempoTrabajado, double sueldo, long ID, String nombre,int edad, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
+        super(ID, nombre,edad, sexo, estadoCivil, altura, peso, listaMensaje);
         this.ocupacion = ocupacion;
         this.horario = horario;
         this.tiempoTrabajado = tiempoTrabajado;

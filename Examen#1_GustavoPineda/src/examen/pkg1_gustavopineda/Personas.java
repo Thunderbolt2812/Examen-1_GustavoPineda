@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class Personas {
     private long ID;
     String nombre;
+    private int edad;
     private String sexo;
     private String estadoCivil;
     private double altura;
@@ -23,9 +24,10 @@ public class Personas {
     public Personas() {
     }
 
-    public Personas(long ID, String nombre, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
+    public Personas(long ID, String nombre,int edad, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
         this.ID = ID;
         this.nombre = nombre;
+        this.edad=edad;
         this.sexo = sexo;
         this.estadoCivil = estadoCivil;
         this.altura = altura;
@@ -47,6 +49,14 @@ public class Personas {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
     public String getSexo() {

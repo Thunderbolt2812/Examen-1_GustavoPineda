@@ -20,8 +20,8 @@ public class Gerentes extends Personas {
         super();
     }
 
-    public Gerentes(String usuario, String contraseña,String cargo, long ID, String nombre, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
-        super(ID, nombre, sexo, estadoCivil, altura, peso, listaMensaje);
+    public Gerentes(String usuario, String contraseña,String cargo, long ID, String nombre,int edad, String sexo, String estadoCivil, double altura, double peso, ArrayList<String> listaMensaje) {
+        super(ID, nombre,edad, sexo, estadoCivil, altura, peso, listaMensaje);
         this.usuario = usuario;
         this.contraseña = contraseña;
         this.cargo=cargo;
