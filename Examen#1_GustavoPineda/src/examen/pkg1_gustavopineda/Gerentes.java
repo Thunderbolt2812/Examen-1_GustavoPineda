@@ -54,7 +54,7 @@ public class Gerentes extends Personas {
     
     @Override
     public String toString() {
-        return usuario;
+        return nombre;
     }
     
     

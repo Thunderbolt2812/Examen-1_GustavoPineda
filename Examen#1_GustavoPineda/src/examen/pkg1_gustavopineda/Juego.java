@@ -53,7 +53,7 @@ public class Juego extends Articulos {
 
     @Override
     public String toString() {
-        return casaElaboracion;
+        return titulo;
     }
     
     

@@ -53,7 +53,7 @@ public class Comic extends Articulos {
 
     @Override
     public String toString() {
-        return desc;
+        return titulo;
     }
     
     

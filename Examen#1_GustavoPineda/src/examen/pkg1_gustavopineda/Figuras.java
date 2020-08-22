@@ -13,17 +13,17 @@ import java.awt.Color;
  */
 public class Figuras extends Articulos{
     private String descrip;
-    private String intrucciones;
+    private String instrucciones;
     private String garantia;
 
     public Figuras() {
         super();
     }
 
-    public Figuras(String descrip, String intrucciones, String garantia, String titulo, Color color, String descripcion, String editorial, int tamaño, int puntuacion, Personas persona) {
+    public Figuras(String descrip, String instrucciones, String garantia, String titulo, Color color, String descripcion, String editorial, int tamaño, int puntuacion, Personas persona) {
         super(titulo, color, descripcion, editorial, tamaño, puntuacion, persona);
         this.descrip = descrip;
-        this.intrucciones = intrucciones;
+        this.instrucciones = instrucciones;
         this.garantia = garantia;
     }
 
@@ -35,12 +35,12 @@ public class Figuras extends Articulos{
         this.descrip = descrip;
     }
 
-    public String getIntrucciones() {
-        return intrucciones;
+    public String getInstrucciones() {
+        return instrucciones;
     }
 
-    public void setIntrucciones(String intrucciones) {
-        this.intrucciones = intrucciones;
+    public void setInstrucciones(String instrucciones) {
+        this.instrucciones = instrucciones;
     }
 
     public String getGarantia() {
@@ -53,7 +53,7 @@ public class Figuras extends Articulos{
 
     @Override
     public String toString() {
-        return super.getDescripcion();
+        return titulo;
     }
     
     

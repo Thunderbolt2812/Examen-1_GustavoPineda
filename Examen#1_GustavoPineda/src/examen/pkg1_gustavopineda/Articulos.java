@@ -12,7 +12,7 @@ import java.awt.Color;
  * @author Usuario
  */
 public class Articulos {
-    private String titulo;
+    String titulo;
     private Color color;
     private String descripcion;
     private String editorial;
